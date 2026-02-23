@@ -4,7 +4,6 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.metrics import mean_squared_error, accuracy_score
-
 import os
 
 # Create "models" folder if it doesn't exist
