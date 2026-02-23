@@ -5,6 +5,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.metrics import mean_squared_error, accuracy_score
 
+import os
+
+# Create "models" folder if it doesn't exist
+if not os.path.exists("models"):
+    os.makedirs("models")
+    print("Created 'models' folder.")
+else:
+    print("'models' folder already exists.")
+
 df = pd.read_csv("dataset.csv")
 
 # -----------------------------
