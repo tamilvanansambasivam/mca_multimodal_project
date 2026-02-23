@@ -44,7 +44,6 @@ python -c "import pandas, numpy, sklearn, altair; print('Core libs OK')"
 ## **6. Generate Data & Train Models**
 
 ```bash
-mkdir models
 python data_gen.py
 python train.py
 ```
